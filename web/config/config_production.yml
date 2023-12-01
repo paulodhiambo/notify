@@ -1,0 +1,7 @@
+---
+app_name: "MyGinApp"
+app_version: "1.0.0"
+app_port: 8080
+log_level: "info"
+database_url: "mysql://user:password@production-db:3306/production_database"
+jwt_secret: "production_jwt_secret_key"
