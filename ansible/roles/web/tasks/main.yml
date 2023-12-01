@@ -1,0 +1,5 @@
+---
+- name: Clone the Git repository
+  git:
+    repo: https://github.com/your-username/your-gin-project.git
+    dest: /var/www/your-gin-project
